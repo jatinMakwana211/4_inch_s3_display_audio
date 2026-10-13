@@ -1,0 +1,18 @@
+{
+  "configurations": [
+    {
+      "name": "Win32",
+      "includePath": [
+        "${workspaceFolder}/**"
+      ],
+      "defines": [
+        "_DEBUG",
+        "UNICODE",
+        "_UNICODE"
+      ],
+      "compileCommands": "c:\\Users\\Hp\\Desktop\\4_inch_s3_display_audio\\build_voice\\compile_commands.json",
+      "compilerPath": "C:\\Users\\Hp\\.espressif\\tools\\xtensa-esp-elf\\esp-14.2.0_20250730\\xtensa-esp-elf\\bin\\xtensa-esp32s3-elf-gcc.exe"
+    }
+  ],
+  "version": 4
+}

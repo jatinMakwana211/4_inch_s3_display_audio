@@ -1,0 +1,9 @@
+
+
+# Load bootloader symbols
+set confirm off
+    add-symbol-file C:/Users/Hp/Desktop/4_inch_s3_display_audio/build_agent_stable/bootloader/bootloader.elf
+set confirm on
+
+# Load application symbols
+file C:/Users/Hp/Desktop/4_inch_s3_display_audio/build_agent_stable/dqr222_ESP_project.elf

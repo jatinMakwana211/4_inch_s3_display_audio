@@ -1,0 +1,13 @@
+# Target labels
+ bootloader
+# Source files and their labels
+C:/Users/Hp/Desktop/4_inch_s3_display_audio/build_voice/CMakeFiles/bootloader
+C:/Users/Hp/Desktop/4_inch_s3_display_audio/build_voice/CMakeFiles/bootloader.rule
+C:/Users/Hp/Desktop/4_inch_s3_display_audio/build_voice/CMakeFiles/bootloader-complete.rule
+C:/Users/Hp/Desktop/4_inch_s3_display_audio/build_voice/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule
+C:/Users/Hp/Desktop/4_inch_s3_display_audio/build_voice/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule
+C:/Users/Hp/Desktop/4_inch_s3_display_audio/build_voice/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule
+C:/Users/Hp/Desktop/4_inch_s3_display_audio/build_voice/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule
+C:/Users/Hp/Desktop/4_inch_s3_display_audio/build_voice/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule
+C:/Users/Hp/Desktop/4_inch_s3_display_audio/build_voice/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule
+C:/Users/Hp/Desktop/4_inch_s3_display_audio/build_voice/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule

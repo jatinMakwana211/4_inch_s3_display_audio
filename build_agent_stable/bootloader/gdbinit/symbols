@@ -1,0 +1,9 @@
+
+
+# Load bootloader symbols
+set confirm off
+    # Bootloader elf was not found
+set confirm on
+
+# Load application symbols
+file C:/Users/Hp/Desktop/4_inch_s3_display_audio/build_agent_stable/bootloader/bootloader.elf

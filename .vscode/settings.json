@@ -1,0 +1,42 @@
+{
+  "idf.flashType": "UART",
+  "idf.buildPath": "${workspaceFolder}/build_voice",
+  "files.associations": {
+    "ui.h": "c",
+    "var.h": "c",
+    "lvgl.h": "c",
+    "lte.h": "c",
+    "backlight.h": "c",
+    "freertos.h": "c",
+    "esp_sntp.h": "c",
+    "cjson.h": "c",
+    "array": "c",
+    "string": "c",
+    "string_view": "c",
+    "span": "c",
+    "simcom_a76xx.h": "c",
+    "queue.h": "c",
+    "config.h": "c",
+    "my_netif.h": "c",
+    "esp_timer.h": "c",
+    "cstdlib": "c",
+    "stdbool.h": "c",
+    "util.h": "c",
+    "gpio.h": "c"
+  },
+  "idf.currentSetup": "C:\\Users\\Hp\\esp\\v5.4.3\\esp-idf",
+  "idf.openOcdConfigs": [
+    "interface/ftdi/esp_ftdi.cfg",
+    "target/esp32s3.cfg"
+  ],
+  "idf.customExtraVars": {
+    "IDF_TARGET": "esp32s3"
+  },
+  "clangd.path": "C:\\Users\\Hp\\.espressif\\tools\\esp-clang\\esp-18.1.2_20240912\\esp-clang\\bin\\clangd.exe",
+  "clangd.arguments": [
+    "--background-index",
+    "--query-driver=**",
+    "--compile-commands-dir=c:\\Users\\Hp\\Desktop\\4_inch_s3_display_audio/build_voice"
+  ],
+  "idf.port": "COM6"
+}

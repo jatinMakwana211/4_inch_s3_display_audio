@@ -1,0 +1,58 @@
+-- IDF_TARGET is not set, guessed 'esp32s3' from sdkconfig 'C:/Users/Hp/Desktop/4_inch_s3_display_audio/sdkconfig'
+-- Found Git: C:/Program Files/Git/cmd/git.exe (found version "2.52.0.windows.1")
+-- The C compiler identification is GNU 14.2.0
+-- The CXX compiler identification is GNU 14.2.0
+-- The ASM compiler identification is GNU
+-- Found assembler: C:/Users/Hp/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc.exe
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: C:/Users/Hp/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc.exe - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: C:/Users/Hp/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/xtensa-esp32s3-elf-g++.exe - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- git rev-parse returned 'fatal: not a git repository (or any of the parent directories): .git'
+-- Could not use 'git describe' to determine PROJECT_VER.
+-- Building ESP-IDF components for target esp32s3
+-- Project sdkconfig file C:/Users/Hp/Desktop/4_inch_s3_display_audio/sdkconfig
+Loading defaults file C:/Users/Hp/Desktop/4_inch_s3_display_audio/sdkconfig.defaults...
+C:\Users\Hp\AppData\Local\Temp\kconfgen_tmplk3q900d:1 line was updated to # ===== Target =====n
+C:\Users\Hp\AppData\Local\Temp\kconfgen_tmplk3q900d:5 line was updated to # ===== FreeRTOS / C++ =====n
+C:\Users\Hp\AppData\Local\Temp\kconfgen_tmplk3q900d:9 line was updated to # ===== ESP32-S3 N8R8: 8 MB Flash + 8 MB Octal PSRAM =====n
+C:\Users\Hp\AppData\Local\Temp\kconfgen_tmplk3q900d:21 line was updated to # ===== Partition table =====n
+C:\Users\Hp\AppData\Local\Temp\kconfgen_tmplk3q900d:25 line was updated to # ===== Logging =====n
+C:\Users\Hp\AppData\Local\Temp\kconfgen_tmplk3q900d:30 line was updated to # ===== Increase stack sizes =====n
+C:\Users\Hp\AppData\Local\Temp\kconfgen_tmplk3q900d:33 line was updated to # ===== I2S =====n
+-- Compiler supported targets: xtensa-esp-elf
+-- Found Python3: C:/Users/Hp/.espressif/python_env/idf5.4_py3.11_env/Scripts/python.exe (found version "3.11.2") found components: Interpreter
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE
+-- Performing Test C_COMPILER_SUPPORTS_WFORMAT_SIGNEDNESS
+-- Performing Test C_COMPILER_SUPPORTS_WFORMAT_SIGNEDNESS - Success
+-- USING O3
+-- App "dqr222_ESP_project" version: 1
+-- Adding linker script C:/Users/Hp/Desktop/4_inch_s3_display_audio/build_voice/esp-idf/esp_system/ld/memory.ld
+-- Adding linker script C:/Users/Hp/Desktop/4_inch_s3_display_audio/build_voice/esp-idf/esp_system/ld/sections.ld.in
+-- Adding linker script C:/Users/Hp/esp/v5.4.3/esp-idf/components/esp_rom/esp32s3/ld/esp32s3.rom.ld
+-- Adding linker script C:/Users/Hp/esp/v5.4.3/esp-idf/components/esp_rom/esp32s3/ld/esp32s3.rom.api.ld
+-- Adding linker script C:/Users/Hp/esp/v5.4.3/esp-idf/components/esp_rom/esp32s3/ld/esp32s3.rom.bt_funcs.ld
+-- Adding linker script C:/Users/Hp/esp/v5.4.3/esp-idf/components/esp_rom/esp32s3/ld/esp32s3.rom.libgcc.ld
+-- Adding linker script C:/Users/Hp/esp/v5.4.3/esp-idf/components/esp_rom/esp32s3/ld/esp32s3.rom.wdt.ld
+-- Adding linker script C:/Users/Hp/esp/v5.4.3/esp-idf/components/esp_rom/esp32s3/ld/esp32s3.rom.version.ld
+-- Adding linker script C:/Users/Hp/esp/v5.4.3/esp-idf/components/esp_rom/esp32s3/ld/esp32s3.rom.ble_master.ld
+-- Adding linker script C:/Users/Hp/esp/v5.4.3/esp-idf/components/esp_rom/esp32s3/ld/esp32s3.rom.ble_50.ld
+-- Adding linker script C:/Users/Hp/esp/v5.4.3/esp-idf/components/esp_rom/esp32s3/ld/esp32s3.rom.ble_smp.ld
+-- Adding linker script C:/Users/Hp/esp/v5.4.3/esp-idf/components/esp_rom/esp32s3/ld/esp32s3.rom.ble_dtm.ld
+-- Adding linker script C:/Users/Hp/esp/v5.4.3/esp-idf/components/esp_rom/esp32s3/ld/esp32s3.rom.ble_test.ld
+-- Adding linker script C:/Users/Hp/esp/v5.4.3/esp-idf/components/esp_rom/esp32s3/ld/esp32s3.rom.ble_scan.ld
+-- Adding linker script C:/Users/Hp/esp/v5.4.3/esp-idf/components/esp_rom/esp32s3/ld/esp32s3.rom.newlib.ld
+-- Adding linker script C:/Users/Hp/esp/v5.4.3/esp-idf/components/soc/esp32s3/ld/esp32s3.peripherals.ld
+-- Components: app_update bootloader bootloader_support cxx driver efuse esp-tls esp_app_format esp_bootloader_format esp_coex esp_common esp_driver_ana_cmpr esp_driver_dac esp_driver_gpio esp_driver_gptimer esp_driver_i2c esp_driver_i2s esp_driver_ledc esp_driver_mcpwm esp_driver_parlio esp_driver_pcnt esp_driver_rmt esp_driver_sdio esp_driver_sdm esp_driver_sdmmc esp_driver_sdspi esp_driver_spi esp_driver_tsens esp_driver_uart esp_driver_usb_serial_jtag esp_event esp_http_client esp_hw_support esp_lcd esp_mm esp_netif esp_netif_stack esp_partition esp_phy esp_pm esp_psram esp_ringbuf esp_rom esp_security esp_system esp_timer esp_vfs_console esp_wifi esptool_py freertos hal heap http_parser json log lwip main mbedtls minimp3 newlib nvs_flash partition_table pthread sdmmc soc spi_flash spiffs tcp_transport vfs wpa_supplicant xtensa
+-- Component paths: C:/Users/Hp/esp/v5.4.3/esp-idf/components/app_update C:/Users/Hp/esp/v5.4.3/esp-idf/components/bootloader C:/Users/Hp/esp/v5.4.3/esp-idf/components/bootloader_support C:/Users/Hp/esp/v5.4.3/esp-idf/components/cxx C:/Users/Hp/esp/v5.4.3/esp-idf/components/driver C:/Users/Hp/esp/v5.4.3/esp-idf/components/efuse C:/Users/Hp/esp/v5.4.3/esp-idf/components/esp-tls C:/Users/Hp/esp/v5.4.3/esp-idf/components/esp_app_format C:/Users/Hp/esp/v5.4.3/esp-idf/components/esp_bootloader_format C:/Users/Hp/esp/v5.4.3/esp-idf/components/esp_coex C:/Users/Hp/esp/v5.4.3/esp-idf/components/esp_common C:/Users/Hp/esp/v5.4.3/esp-idf/components/esp_driver_ana_cmpr C:/Users/Hp/esp/v5.4.3/esp-idf/components/esp_driver_dac C:/Users/Hp/esp/v5.4.3/esp-idf/components/esp_driver_gpio C:/Users/Hp/esp/v5.4.3/esp-idf/components/esp_driver_gptimer C:/Users/Hp/esp/v5.4.3/esp-idf/components/esp_driver_i2c C:/Users/Hp/esp/v5.4.3/esp-idf/components/esp_driver_i2s C:/Users/Hp/esp/v5.4.3/esp-idf/components/esp_driver_ledc C:/Users/Hp/esp/v5.4.3/esp-idf/components/esp_driver_mcpwm C:/Users/Hp/esp/v5.4.3/esp-idf/components/esp_driver_parlio C:/Users/Hp/esp/v5.4.3/esp-idf/components/esp_driver_pcnt C:/Users/Hp/esp/v5.4.3/esp-idf/components/esp_driver_rmt C:/Users/Hp/esp/v5.4.3/esp-idf/components/esp_driver_sdio C:/Users/Hp/esp/v5.4.3/esp-idf/components/esp_driver_sdm C:/Users/Hp/esp/v5.4.3/esp-idf/components/esp_driver_sdmmc C:/Users/Hp/esp/v5.4.3/esp-idf/components/esp_driver_sdspi C:/Users/Hp/esp/v5.4.3/esp-idf/components/esp_driver_spi C:/Users/Hp/esp/v5.4.3/esp-idf/components/esp_driver_tsens C:/Users/Hp/esp/v5.4.3/esp-idf/components/esp_driver_uart C:/Users/Hp/esp/v5.4.3/esp-idf/components/esp_driver_usb_serial_jtag C:/Users/Hp/esp/v5.4.3/esp-idf/components/esp_event C:/Users/Hp/esp/v5.4.3/esp-idf/components/esp_http_client C:/Users/Hp/esp/v5.4.3/esp-idf/components/esp_hw_support C:/Users/Hp/esp/v5.4.3/esp-idf/components/esp_lcd C:/Users/Hp/esp/v5.4.3/esp-idf/components/esp_mm C:/Users/Hp/esp/v5.4.3/esp-idf/components/esp_netif C:/Users/Hp/esp/v5.4.3/esp-idf/components/esp_netif_stack C:/Users/Hp/esp/v5.4.3/esp-idf/components/esp_partition C:/Users/Hp/esp/v5.4.3/esp-idf/components/esp_phy C:/Users/Hp/esp/v5.4.3/esp-idf/components/esp_pm C:/Users/Hp/esp/v5.4.3/esp-idf/components/esp_psram C:/Users/Hp/esp/v5.4.3/esp-idf/components/esp_ringbuf C:/Users/Hp/esp/v5.4.3/esp-idf/components/esp_rom C:/Users/Hp/esp/v5.4.3/esp-idf/components/esp_security C:/Users/Hp/esp/v5.4.3/esp-idf/components/esp_system C:/Users/Hp/esp/v5.4.3/esp-idf/components/esp_timer C:/Users/Hp/esp/v5.4.3/esp-idf/components/esp_vfs_console C:/Users/Hp/esp/v5.4.3/esp-idf/components/esp_wifi C:/Users/Hp/esp/v5.4.3/esp-idf/components/esptool_py C:/Users/Hp/esp/v5.4.3/esp-idf/components/freertos C:/Users/Hp/esp/v5.4.3/esp-idf/components/hal C:/Users/Hp/esp/v5.4.3/esp-idf/components/heap C:/Users/Hp/esp/v5.4.3/esp-idf/components/http_parser C:/Users/Hp/esp/v5.4.3/esp-idf/components/json C:/Users/Hp/esp/v5.4.3/esp-idf/components/log C:/Users/Hp/esp/v5.4.3/esp-idf/components/lwip C:/Users/Hp/Desktop/4_inch_s3_display_audio/main C:/Users/Hp/esp/v5.4.3/esp-idf/components/mbedtls C:/Users/Hp/Desktop/4_inch_s3_display_audio/components/minimp3 C:/Users/Hp/esp/v5.4.3/esp-idf/components/newlib C:/Users/Hp/esp/v5.4.3/esp-idf/components/nvs_flash C:/Users/Hp/esp/v5.4.3/esp-idf/components/partition_table C:/Users/Hp/esp/v5.4.3/esp-idf/components/pthread C:/Users/Hp/esp/v5.4.3/esp-idf/components/sdmmc C:/Users/Hp/esp/v5.4.3/esp-idf/components/soc C:/Users/Hp/esp/v5.4.3/esp-idf/components/spi_flash C:/Users/Hp/esp/v5.4.3/esp-idf/components/spiffs C:/Users/Hp/esp/v5.4.3/esp-idf/components/tcp_transport C:/Users/Hp/esp/v5.4.3/esp-idf/components/vfs C:/Users/Hp/esp/v5.4.3/esp-idf/components/wpa_supplicant C:/Users/Hp/esp/v5.4.3/esp-idf/components/xtensa
+-- Configuring done (139.5s)
+-- Generating done (16.0s)
+-- Build files have been written to: C:/Users/Hp/Desktop/4_inch_s3_display_audio/build_voice
